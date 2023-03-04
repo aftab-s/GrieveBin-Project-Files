@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="flex w-[90%] items-center ml-20 mt-4 p-4  mr-4 bg-white   rounded-2xl ">
       <p className=" w-1/2 text-3xl font-bold ml-8 cursor-pointer  ">
-        <Link to="/">Greive-Bin</Link>
+        <Link to="/">Grieve-Bin</Link>
       </p>
       <div className="flex w-1/2  justify-end ml-28 ">
         <Link to="/login">
