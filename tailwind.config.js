@@ -2,17 +2,22 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"],
+        main: ["Poppins", "sans-serif"],
+      },
+      fontWeight: {
+        mainBold: 700,
+        threehundred: 300,
+        sizeHundred: 600,
+        fiveHundred: 500,
+      },
+      // backgroundImage: {
+      //   heroImage: "url('/assets/hero.png')",
+      // },
+    },
   },
-  fontFamily: {
-    sans: ["Montserrat", "sans-serif"],
-    main: ["Poppins", "sans-serif"],
-  },
-  fontWeight: {
-    mainBold: 700,
-    threehundred: 300,
-    sizeHundred: 600,
-    fiveHundred: 500,
-  },
+
   plugins: [],
 };

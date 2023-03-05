@@ -6,3 +6,10 @@ body {
     background: linear-gradient(180deg, #7AE7FF 0%, #F8CCF3 100%);
     background-repeat: no-repeat
 }
+
+.heroImage{
+    background-image: url(./assets/hero.png);
+}
+.btnBg {
+    background: linear-gradient(268.86deg, #F2BAFB 0.41%, #9EFFFF 131.45%);
+}
