@@ -2,8 +2,9 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import { Home, Login, Register } from "./Core";
-import { UserDashboard } from "./User";
+import { SingleGrievance, UserDashboard } from "./User";
 import GrievanceForm from "./User/GrievanceForm";
+import Grievances from "./User/Grievances";
 
 import "./App.css";
 
@@ -18,6 +19,8 @@ const App = () => {
             <Route path="/sign-up" element={<Register />} />
             <Route path="/user/dashboard" element={<UserDashboard />} />
             <Route path="/user/new-grievance" element={<GrievanceForm />} />
+            <Route path="/user/grievances" element={<Grievances />} />
+            <Route path="/user/grievance/1234" element={<SingleGrievance />} />
           </Routes>
         </Layout>
       </BrowserRouter>
