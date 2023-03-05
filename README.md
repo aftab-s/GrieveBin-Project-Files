@@ -34,11 +34,11 @@ Assistive Bot: This feature can provide users with assistance in navigating the 
 Overall, these features can help to make a grievance reporting platform more effective and user-friendly, while also providing users with the support and resources they need to resolve their concerns.
 
 ### Implementation
-##### MongoDB
-##### Express Js
-##### React Js
-##### Node Js
-##### Figma
+MongoDB
+Express Js
+React Js
+Node Js
+Figma
 
 ### 🏠 [Homepage](App.js)
 
